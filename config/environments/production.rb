@@ -58,3 +58,6 @@ DemoApp::Application.configure do
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
 end
+
+config.assets.precompile +=  %w( public.js public.css)
+
